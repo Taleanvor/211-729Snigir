@@ -1,6 +1,6 @@
 #include <iostream>
 #include <clocale>
-#include <windows.h>
+//#include <windows.h>
 using namespace std;
 
 // lab 17
@@ -9,7 +9,6 @@ int main() {
     setlocale(LC_CTYPE, "rus");
     //SetConsoleCP(1251);
     //SetConsoleOutputCP(1251);
-
 
     // ввод размера массива
     int N;
